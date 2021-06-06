@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<header>
+    <head>
+    <!-- hier zet je de code in de head tags -->
+        <title>cook form:</title>
+    </head>
+</header>
+<main>
+<body>
+       <!-- hier zet je de code in de body tags-->
+       <h2>Recept (groot) Formulier </h2>
+       <form name="contact_mirjam2" method="POST" data-netlify="true">
+        <p>
+          <label>Your Name: <input type="text" name="name" /></label>   
+        </p>
+        <p>
+          <label>Your Email: <input type="email" name="email" /></label>
+        </p>
+        <p>
+          <label>Telefoon: <input type="text" name="phone" /></label>
+        </p>
+        <p>
+          <label>Leeftijd: <input type="text" name="age" /></label>
+        </p>
+        <p>
+          <label>Man: <input type="radio" name="gender" value="Man"/></label>
+          <label>Vrouw: <input type="radio" name="gender" value="Vrouw"/></label>
+          <label>Non-Binary: <input type="radio" name="gender" value="Non-Binary" checked="checked"/></label>
+        </p>
+        <p>
+          <label>Cuisine:</label>
+          <select id="kitschen">
+            <option value="Frans">Frans</option>
+            <option value="Italiaans">Italiaans</option>
+            <option value="Chinees">Chinees</option>
+            <option value="Japans">Japans</option>
+            <option value="Amerikaans">Amerikaans</option>
+            </select>
+        </p>
+        <p>
+        <label for="favcolor">Select your favorite color van je short:</label>
+          <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+        </p>
+        <p>
+          <label>biografie <textarea name="biografie"></textarea></label>
+        </p>
+        <p>
+        <label> upload je laatste recept (upload een file) <input type="file" name="recept_file"/></label>
+      </p>
+        <p>
+        <button type="reset">reset</button>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      </form>
+    </body>
+</main>
+    <footer id="footer">
+        <nav><ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="links.html">Links</a></li></a>
+            <li><a href="index.html">Home</a></li></a>
+        </ul></nav>
+    </footer>
+</html>
