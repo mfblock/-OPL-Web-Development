@@ -1,0 +1,143 @@
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+    background-image: url("/Images/Brood-bakken.jpeg");
+    background-position: center;
+    color:rgb(219, 211, 163);
+    font-family: fantasy;
+    height: 250px;
+    width: 100%;
+    }
+
+  
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    text-align: left;
+  }
+  
+  .flex-item-left {
+    background-color: #103b26;
+    padding: 10px;
+    flex: 50%;
+  }
+  .flex-item-middle {
+    background-color: #103b26;
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  .flex-item-right {
+    background-color: #103b26;
+    padding: 10px;
+    flex: 50%;
+  }
+
+  
+  .footer-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+    text-align: left;
+  }
+  
+  .footer-item-left {
+    background-color: #103b26;
+    padding: 10px;
+    flex: 50%;
+  }
+  .footer-item-middle {
+    background-color: #103b26;
+    padding: 10px;
+    flex: 50%;
+  }
+  
+  .footer-item-right {
+    background-color: #103b26;
+    padding: 10px;
+    flex: 50%;
+  }
+
+body { 
+    color: rgb(249, 252, 251);
+    min-height: 100vh;
+}
+
+h1,h2 {
+  text-align: center;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+a:hover {
+  background-color: rgb(18, 204, 142);
+}
+
+article {
+    background-color:rgb(68, 82, 72, 0.6);
+    color: beige;
+    overflow: hidden;
+    border: 1px solid beige;
+}
+article h1 {
+    
+    color: beige;
+    margin-left: 25px;
+    font-weight: bold;
+    font-family: fantasy;
+
+}
+p {
+        color: beige;
+        margin-left: 25px;
+        padding: 15px;
+    }
+
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover {
+        background-color: #111;
+      }
+footer {
+    background-color:rgb(68, 82, 72, 0.6);
+    color: beige;
+}
+
+@media screen and (min-width: 900px) {
+    .flex-container {
+    flex-direction: row;
+    align-items: stretch;
+    }}
+
+@media screen and (max-width: 600px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: stretch;
+  }}
