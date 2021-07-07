@@ -1,0 +1,54 @@
+/* dropdown met plaatje */
+.dropbtn {
+    background-image: url('images/hamburger_menu.png');
+    background-size: 30px 30px;
+    background-color: inherit;
+    padding: 15px;
+    font-size: 30px;
+    border: 5px;
+    cursor: pointer;
+  }
+  
+  /* dropdown hover zodat zichtbaar is waar je klikt */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: white;
+  }
+  
+  /* Mechanisme voor dropdown */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* vullen van de menu items */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* styles voor li elementen in de drop down */
+  .dropdown-content li {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: all 2s ease;
+  }
+  
+  /* hover voor kleuren selectie */
+  .dropdown li:hover {background-color: gray;}
+  
+  /* showen van het menu */
+  .show {display: block;}
+
+  /* kleuren achtergrond in de links met leesbare text */
+  #white {background-color: white; color: black;} 
+  #blue {background-color: blue;color: white;} 
+  #yellow {background-color: yellow;}
+  #green {background-color: green; color: white;} 
+  #purple {background-color: purple; color: white;}
